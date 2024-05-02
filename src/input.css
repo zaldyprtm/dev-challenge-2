@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.down { 
+ background-image: url(./src/img/Expand_down.svg) ;
+}
