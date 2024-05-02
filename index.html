@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dev 2 | Contact</title>
+  </head>
+  <body class="" style="background-image: url(./src/img/bg-image.svg)">
+    <div>
+      <div class="flex mt-2 p-3">
+        <img src="./src/img/contact-form-icon.svg" alt="" />
+      </div>
+      <div
+        class="flex mx-auto flex-wrap items-center justify-center mt-20 w-auto"
+      >
+        <h1
+          class="text-[#F8FAFC] font-viet text-4xl text-center"
+          style="font-weight: 700"
+        >
+          Interested in our business pricing?
+        </h1>
+        <p
+          class="text-[#CDD5E0] text-center text-wrap p-6"
+          style="font-weight: 500"
+        >
+          Fill out the form to view details and we’ll contact you as soon as
+          possible.
+        </p>
+      </div>
+      <!-- form -->
+      <div
+        class="bg-[#CDD5E0] backdrop-filter backdrop-blur-lg w-80 rounded-lg h-auto mx-auto"
+      >
+        <form action="">
+          <div class="px-4">
+            <label for="Name" class="text-[#F8FAFC] text-sm font-viet"
+              >Name</label
+            >
+            <br />
+            <input
+              type="text"
+              name="Name"
+              id="Name"
+              placeholder="Ethan Jhonson"
+              class="rounded-lg px-4 w-72 h-[55px]"
+            />
+          </div>
+
+          <div class="px-4 mt-4">
+            <label for="email" class="text-[#F8FAFC] text-sm font-viet"
+              >Company email</label
+            >
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="ethan@johnson.com"
+              class="rounded-lg px-4 w-72 h-[55px]"
+            />
+          </div>
+          <div class="px-4 mt-4">
+            <label for="select" class="text-[#F8FAFC] text-sm font-viet">Company Size</label> <br>
+            <div class="relative">
+                <select name="select" id="select" class="rounded-md w-72 h-[55px] px-4 font-viet" style="font-weight: 700; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url(./src/img/expand_down.svg); background-repeat: no-repeat; background-position: right center; padding-right: 2rem;">
+                    <option value="50-100 employees" class="font-viet rounded-md " style="font-weight: 500;"><span></span>50-100 employees</option>
+                </select>
+            </div>
+        </div>
+        </div>
+        
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
