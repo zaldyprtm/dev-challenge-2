@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .down { 
- background-image: url(./src/img/expand_down.svg) ;
+ background-image: url(../src/img/expand_down.svg) ;
 }
